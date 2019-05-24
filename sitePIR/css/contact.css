@@ -1,0 +1,71 @@
+.fondprincipal{
+	padding:2em 0;
+}
+.contact {
+	display:flex;
+	flex-direction: column;
+	align-items:center ;
+	justify-content: flex-start;
+	background-color:white;
+	margin : 0em 2em;
+	border: 3px white inset;
+	border-radius: 10px 10px 10px 10px;
+	height:100%;
+	background-color:rgba(1,12,64,0.8);
+	color:#fff;
+	padding: 0em 1em 1em 1em;
+}
+.svgcontact {
+	width:10%;
+	margin-right: 5%;
+}
+.mailminctc-1 {
+fill: #e2e1d9;
+fill-rule: evenodd;
+}
+.mailminctc-2 {
+fill: #3f3f3f;
+}
+.cls-1 {
+    fill: #295396;
+}
+.cls-2 {
+    fill: #fff;
+    fill-rule: evenodd;
+}
+.maildiv, .fbdiv {
+	display: flex;
+	align-items: center;
+}
+.local_texte {
+	text-align: center;
+}
+.local_map {
+	width: 100%;
+	height: 20em;
+}
+@media (min-width: 960px) {
+	.svgcontact {
+		width:10%;
+		margin-right: 3%;
+	}
+	.info {
+		font-size: 1.5em;
+	}
+	.contact {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		flex-direction: row;
+	}
+	.contact h2{
+		width:100%;
+		text-align: center;
+	}
+	.info {
+		width:40%;
+	}
+	.local {
+		width: 50%;
+	}
+}

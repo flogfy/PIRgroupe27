@@ -1,0 +1,89 @@
+.fondprincipal {
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+.form {
+	display:flex;
+	flex-direction: column;
+	align-items:center ;
+	justify-content: flex-start;
+	background-color:white;
+	margin : 0em 2em;
+	border: 3px white inset;
+	border-radius: 10px 10px 10px 10px;
+	height:100%;
+	background-color:#010c40;
+	color:#fff;
+	opacity:0.8;
+	padding: 0 1em;
+	text-align: center;
+}
+.button {
+	display: flex;
+	justify-content: center;
+	margin: 2em 2em;
+	border: 2px white inset;
+	border-radius: 1em;
+	cursor: pointer;
+	padding: 0.1em 3em;
+}
+.button:hover {
+	background: white;
+	color: #010c40;
+}
+.resultat {
+	font-size: 1.25em;
+}
+.telechargement {
+	margin: 2em 0;
+}
+@media screen and (min-width:700px){
+	.fondprincipal {
+		padding-top: 3em;
+		padding-bottom: 3em;
+	}
+	.form {
+		margin:0em 4em;
+		font-size: 1.5em;
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+	.form h2 {
+		width:100%;
+		text-align: middle;
+	}
+
+	.diode, .potentiometre, .capteurgaz, .capteurtemperature, .capteurrfid  {
+		
+		width: 20%;
+		text-align: center;
+	}
+
+	.boutonderoulant{
+		width:150px;
+		justify-content:center;
+	}
+
+
+	.descmatos div {
+		margin:0 1em;
+	}
+
+	.button{
+		width:20%;
+		margin:2em auto;
+	}
+
+	.photomatos{
+		text-align: left;
+		max-width: 20%;
+
+		padding: 1em;
+		max-height: 200px;
+	}
+
+	.validation, .resultat, .telechargement {
+		width:100%;
+		text-align: center;
+	}
+}

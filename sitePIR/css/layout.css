@@ -1,0 +1,354 @@
+html {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background-color:#fff;
+	font-size:12px;
+}
+
+*
+{	box-sizing:border-box;
+}
+ul {
+    list-style: none;
+	margin-block-start:0em;
+	margin-block-end:0em;
+	-moz-padding-start:0px;
+}
+@font-face {                                     
+    font-family: 'prahaharegular';
+    src: url('../font/winnie_tan_-_prahaha-webfont.woff2') format('woff2'),
+         url('../font/winnie_tan_-_prahaha-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@media screen and (max-width:959px){
+
+	#logo
+	{
+
+		display:inline-block;
+	}
+	#haut {
+		background: url(../img/bandeau.jpg) no-repeat right top;
+		background-size: cover;
+		width:100%;
+	}
+	#haut img
+	{
+		width:20%;
+		margin-top:3%;
+		margin-left:6%;
+		margin-bottom:3%;
+	}
+	a
+	{
+		text-decoration:none;
+		color:inherit;
+	}
+	.menuprincipal{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width:100%;
+		height:15%;
+		background-color:#010c40;
+		
+		
+	}
+	.menuprincipal .menu_onglet {
+		width: 100%;
+		height:100%;
+		text-align: center;
+		font-size: 1.3em;
+		color: white;
+		cursor:pointer;
+		padding: 0.6em;
+	}
+	.menuprincipal .menu_onglet.actif {
+		background: #fff;
+		color:#010c40;
+		opacity:0.8;
+	}
+	.menuprincipal .menu_onglet:hover {
+		background: #fff;
+		color:#010c40;
+	}
+	.menu
+	{
+		width:100%;
+		background-color:#000000;
+		height:38px;
+		display:table;
+		text-align:center;
+	}
+	ul
+	{
+		display:table-row;
+		width:960px;	
+		background-color:#2b258c;
+		
+		
+	}
+	li
+	{
+		display:table-cell;
+		padding:10px;
+		color:white;
+		font-family: 'prahaharegular';
+		font-size:14px;
+		table-layout:fixed;
+
+	}
+	ul ul li
+	{
+		display: inherit;
+
+		
+	}
+	li:hover
+	{
+		background-color:#009EE3;
+		color:black;
+	}
+	ul ul
+	{
+	    position: absolute;
+	    left: -999em;
+	    text-align: center;
+	    z-index: 1000;
+		width:30px;
+		display:table;
+	}
+	footer
+	{
+		background-color:#010c40;
+		color:white;
+		text-align: center;
+		display:block;
+
+	}
+	footer a
+	{
+		display:inline-block;
+		padding:10px;
+		
+	}
+
+	.forminscription{
+		display: flex;
+		justify-content: center;
+		margin: 2em 2em;
+		border: 2px white inset;
+		border-radius: 1em;
+		cursor: pointer;
+		padding: 1em;
+		padding-left: 6em;
+	}
+
+
+	.fondprincipal
+	{
+		background-image: url("../img/neige.jpg");
+		background-repeat: no-repeat;
+		background-size:cover;
+		background-attachment:fixed;
+	}
+	#conteneurprincipal
+	{
+		
+		display:flex;
+	}
+	#labelinscrit
+	{
+
+		justify-content: center;
+		padding-left: 6em;
+	}
+}
+
+
+@media screen and (min-width:960px){
+	#logo
+	{
+
+		display:inline-block;
+	}
+	#logo img
+	{
+		height:10%;
+		width:10%;
+		padding:10px;
+	}
+	#haut {
+		background: url(../img/bandeau.jpg) no-repeat right top;
+		background-size: cover;
+	}
+	#haut 
+	{
+		display:block;
+		background-color:white;
+		/*width:960px;*/
+		/*height:340px;*/
+		margin:0px, auto, 0px, auto;
+		vertical-align:center;
+	}
+	#haut img
+	{
+	width: 200px;
+	height: 200px;
+	margin: 2% 6%;
+	}
+	.menuprincipal{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width:100%;
+		height:15%;
+		background-color:#010c40;
+	
+	
+	}
+	.menuprincipal .menu_onglet {
+		width: 100%;
+		height:100%;
+		text-align: center;
+		font-size: 1.5em;
+		color: white;
+		cursor:pointer;
+		padding: 0.6em;
+	}
+	.menuprincipal .menu_onglet.actif {
+		background: #fff;
+		color:#010c40;
+		opacity:0.8;
+	}
+	.menuprincipal .menu_onglet:hover {
+		background: #fff;
+		color:#010c40;
+	}
+
+	body, footer
+	{
+		display:block;l
+		width:100%;
+		margin-left:auto;
+		margin-right:auto;
+		vertical-align:center;
+		margin:0px;
+	
+	}
+	.gris {
+		height:45px;
+		background-color: black;
+		opacity: 0.3;
+	}
+	a
+	{
+		text-decoration:none;
+		color:inherit;
+	}
+	.menu
+	{
+		width:100%;
+		background-color:#000000;
+		height:38px;
+		display:table;
+		display:table;
+		text-align:center;
+	}
+	ul
+	{
+		display:table-row;
+		width:960px;	
+		background-color:#0158FF;
+	
+	
+	}
+	li
+	{
+		display:table-cell;
+		padding:10px;
+		color:white;
+		font-family: 'prahaharegular';
+		font-size:16px;
+		table-layout:fixed;
+
+	}
+	ul ul li
+	{
+		display: inherit;
+
+	
+	}
+	li:hover
+	{
+		background-color: #FFF;
+		color: #0f00ff;
+	}
+	ul ul
+	{
+		position: absolute;
+		left: -999em;
+		text-align: center;
+		z-index: 1000;
+		width:30px;
+		display:table;
+	}
+
+	#menu-deroulant li:hover ul
+	{
+		left: auto;
+		width:1em;
+	}
+	footer
+	{
+		background-color:#010c40;
+		color:white;
+		text-align: center;
+		display:block;
+
+	}
+	footer a
+	{
+		display:inline-block;
+		padding:10px;
+	
+	}
+
+
+	.boutoninscription{
+	border:none;
+	padding:6px 0 6px 0;
+	border-radius:2px;
+	box-shadow:3px 3px 12px #999;
+	background:#fff;
+	font:bold 13px Arial;
+	color:#555;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+	.fondprincipal
+	{
+		background-image: url("../img/neige.jpg");
+		background-repeat: no-repeat;
+		background-size:cover;
+		background-attachment:fixed;
+	}
+	#conteneurprincipal
+	{
+	
+		display:flex;
+		flex-direction:column;
+	
+	}
+}

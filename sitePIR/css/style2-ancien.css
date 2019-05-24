@@ -1,0 +1,464 @@
+html
+{
+	font-family:'prahaharegular';
+	background-color:#fff;
+	font-size:12px;
+}
+
+*
+{	box-sizing:border-box;
+}
+ul {
+    list-style: none;
+	margin-block-start:0em;
+	margin-block-end:0em;
+	-moz-padding-start:0px;
+}
+/*table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}*/
+@font-face {                                     /* POLICE à utiliser */
+    font-family: 'prahaharegular';
+    src: url('../font/winnie_tan_-_prahaha-webfont.woff2') format('woff2'),
+         url('../font/winnie_tan_-_prahaha-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.menuprincipal{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width:100%;
+	height:15%;
+	background-color:#010c40;
+	
+	
+}
+.menuprincipal .menu_onglet {
+	width: 100%;
+	height:100%;
+	text-align: center;
+	font-size: 1.5em;
+	color: white;
+	cursor:pointer;
+	padding: 0.6em;
+}
+.menuprincipal .menu_onglet.actif {
+	background: #fff;
+	color:#010c40;
+	opacity:0.8;
+}
+.menuprincipal .menu_onglet:hover {
+	background: #fff;
+	color:#010c40;
+}
+@media screen and (min-width:320px){
+
+#haut img
+{
+	width:100%;
+}
+a
+{
+	text-decoration:none;
+	color:inherit;
+}
+.menu
+{
+	width:100%;
+	background-color:#000000;
+	height:38px;
+	display:table;
+	text-align:center;
+}
+ul
+{
+	display:table-row;
+	width:960px;	
+	background-color:#2b258c;
+	
+	
+}
+li
+{
+	display:table-cell;
+	padding:10px;
+	color:white;
+	font-family: 'prahaharegular';
+	font-size:14px;
+	table-layout:fixed;
+
+}
+ul ul li
+{
+	display: inherit;
+
+	
+}
+li:hover
+{
+	background-color:#009EE3;
+	color:black;
+}
+ul ul
+{
+    position: absolute;
+    left: -999em;
+    text-align: center;
+    z-index: 1000;
+	width:30px;
+	display:table;
+}
+
+footer
+{
+	background-color:#000000;
+	color:white;
+	text-align: center;
+	display:block;
+
+}
+footer a
+{
+	display:inline-block;
+	padding:10px;
+	font-size: 1.3em;
+}
+#logo
+{
+
+	display:inline-block;
+}
+#logo img
+{
+	height:10%;
+	width:10%;
+	padding:10px;
+}
+#description p:first-child
+{
+	display:none;
+}
+#description p:nth-child(2)
+{text-align:justify;
+font-family:'prahaharegular';
+display:block ;
+color: #009EE3;
+font-size:20px;
+}
+}
+
+@media screen and (min-width:960px){
+#haut {
+	background: url(../img/bandeau.jpg) no-repeat right top;
+	background-size: cover;
+}
+body, footer
+{
+	display:block;l
+	width:100%;
+	margin-left:auto;
+	margin-right:auto;
+	vertical-align:center;
+	margin:0px;
+	
+}
+#haut 
+{
+	display:block;
+	background-color:white;
+	/*width:960px;*/
+	/*height:340px;*/
+	margin:0px, auto, 0px, auto;
+	vertical-align:center;
+}
+#haut img
+{
+width: 200px;
+height: 200px;
+margin: 2% 6%;
+}
+.gris {
+	height:45px;
+	background-color: black;
+	opacity: 0.3;
+}
+a
+{
+	text-decoration:none;
+	color:inherit;
+}
+.menu
+{
+	width:100%;
+	background-color:#000000;
+	height:38px;
+	display:table;
+	display:table;
+	text-align:center;
+}
+ul
+{
+	display:table-row;
+	width:960px;	
+	background-color:#0158FF;
+	
+	
+}
+li
+{
+	display:table-cell;
+	padding:10px;
+	color:white;
+	font-family: 'prahaharegular';
+	font-size:16px;
+	table-layout:fixed;
+
+}
+ul ul li
+{
+	display: inherit;
+
+	
+}
+li:hover
+{
+	background-color: #FFF;
+	color: #0f00ff;
+}
+ul ul
+{
+    position: absolute;
+    left: -999em;
+    text-align: center;
+    z-index: 1000;
+	width:30px;
+	display:table;
+}
+
+#menu-deroulant li:hover ul
+{
+	left: auto;
+	width:1em;
+}
+footer
+{
+	background-color:#010c40;
+	color:white;
+	text-align: center;
+	display:block;
+
+}
+footer a
+{
+	display:inline-block;
+	padding:10px;
+	
+}
+#logo
+{
+
+	display:inline-block;
+}
+#logo img
+{
+	height:10%;
+	width:10%;
+	padding:10px;
+}
+.fondprincipal
+{
+	background-image: url("../img/neige.png");
+	background-repeat: no-repeat;
+	background-size:cover;
+}
+#conteneurprincipal
+{
+	
+	display:flex;
+	flex-direction:column;
+	
+}
+
+#conteneurpresentation
+{
+	padding-top:50px;
+	display:flex;
+}
+.infog {
+	width: 64%;
+}
+.decompte {
+	flex:2;
+	font-family: 'calibri';
+	flex-wrap: wrap;
+	background-color:#010c40;
+	color:white;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	margin-left:50px;
+	border: 3px white inset;
+	border-radius: 0px 10px 0px 10px;
+	margin-top: 7%;
+	min-height: 32%;
+}
+.decomptetitre {
+	width:100%;
+	margin-left: 10%;
+    font-size: 3em;
+    margin-top: 3%;
+}
+.decomptetitre p {
+	margin:0px;
+}
+.decompteVal{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 3em;
+	width: 100%;
+}
+.decompteVal_val p {
+		margin:0px;
+		text-align: center;
+}
+.decompteVal_val {
+	margin: 0px 3%;
+}
+.bienvenue:nth-child(1)
+{
+	flex:2;
+	display:flex;
+	background-color:#010c40;
+	color:white;
+	margin-left:50px;
+	border: 3px white inset;
+	border-radius: 0px 10px 0px 10px;
+	opacity:0.8;
+	height: 50%; 
+}
+
+.bienvenue .texte
+{
+margin-top:20px;
+margin-left:20px;
+margin-right:20px;
+margin-bottom:20px;
+flex:2;
+}
+.bienvenue .image
+{
+	flex:1;
+	background-image:url("../img/amicaleinsa.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color:white;
+	
+}
+.evenements:nth-child(2)
+{
+	flex:1;
+	display:flex;
+	flex-direction:column;
+	background-color:white;
+	margin:0% 4%;
+	border: 3px white inset;
+	border-radius: 10px 10px 10px 10px;
+	
+	height:100%;
+	
+	background-color:#010c40;
+	color:#fff;
+	
+}
+.texte
+{
+margin-top:10px;
+margin-bottom:10px;
+	
+}
+.meteo:nth-child(1)
+{
+	opacity:0.8;
+	background-color:#fff;
+	color:#010c40;
+	height:100%;
+	
+}
+#spacedroit
+{
+	margin-right:10px;
+}
+#spacegauche
+{
+	margin-left:10px;
+}
+.valtho:nth-child(2)
+{
+	padding-top:20px;
+	min-height:150px;
+	height:100%;
+	opacity:0.8;
+}
+.meteoValTho, .meteoPeyr {
+	padding: 1em;
+	display: flex;
+	flex-align: center;
+	justify-content: center;
+}
+.dateMeteo {
+	width: 100%;
+	text-align: center;
+	font-size: 1.2em;
+}
+.meteo_valTho1, .meteo_Peyr1 {
+	padding-right: 1em;
+}
+.meteo_valTho2, .meteo_Peyr2 {
+	padding-left: 1em;
+}
+.meteo_valTho1, .meteo_valTho2, .meteo_Peyr1, .meteo_Peyr2 {
+	width: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.textMeteo {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	width: 50%;
+}
+.textMeteo p {
+	text-align: center;
+    font-size: 1.5em;
+}
+.iconMValTho, .iconWind {
+	width: 50%;
+}
+.peyragudes:nth-child(3)
+{
+	min-height:150px;
+	height:100%;
+	opacity:0.8;
+}
+.afficheski:nth-child(1)
+{
+	flex:1;
+	margin-top:50px;
+	/*background-color:white;
+	background-image:url("afficheski.png");
+	background-repeat:no-repeat;
+	couleur a utiliser : 2989CC*/
+	background:url("../img/afficheski.png") no-repeat center;
+	padding-top:130px;
+	background-color:#2989CC;
+	
+	
+}
+
+}

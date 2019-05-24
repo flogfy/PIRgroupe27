@@ -1,0 +1,328 @@
+#conteneurpresentation
+{
+	padding-top:20px;
+	display:flex;
+	flex-direction:column;
+}
+
+.repas_base:nth-child(1)
+{
+	margin-top:0px;
+	flex:1;
+	display:flex;
+	margin-left:80px;
+	margin-right:80px;
+	border: 3px white inset;
+	border-radius: 10px 10px 10px 10px;
+	opacity:0.8;
+	height:100%; /*Tres important pour que les marges du bloc deviennent independants des marges des autres blocs*/
+	background-color:#010c40;
+	color:#fff;
+	flex-direction:column;
+}
+.repas_base .texte
+{
+	margin-top:10px;
+	margin-left:40px;
+	margin-right:40px;
+	margin-bottom:20px;
+	flex:2;
+}
+/*evenements:nth-child(2)
+{
+	padding-top:40px;
+	margin-top:40px;
+	flex:1;
+	display:flex;
+	flex-direction:column;
+	background-color:white;
+	padding-left:300px;
+	margin-right:300px;
+	border: 3px white inset;
+	border-radius: 10px 10px 10px 10px;
+	height:100%;
+	opacity:0.8;
+	color:#010c40;
+}*/
+.evenements {
+	display: none;
+}
+
+.liste:nth-child(3)
+{
+	margin-top:20px;
+	background-color:#010c40;
+	opacity:0.8;
+	flex:1;
+	display:flex;
+	flex-direction:column;
+	background-color:white;
+	margin-left:130px;
+	margin-right:130px;
+	border: 3px white inset;
+	border-radius: 10px 10px 10px 10px;
+	background-color:#010c40;
+	color:#fff;
+}
+
+.grail:nth-child(1)
+{
+	margin-top:20px;
+	margin-left:14px;
+	margin-right:20px;
+	margin-bottom:20px;
+	flex:2;
+}
+
+#conteneurbas
+{
+	padding-top:20px;
+	display:flex;
+	flex-direction:column;
+	margin-bottom: 1em;
+}
+.basgauche:nth-child(1)
+{
+	margin-top:0px;
+	flex:1;
+	display:flex;
+	flex-direction:column;
+	background-color:white;
+	margin-left:50px;
+	margin-right:50px;
+	border: 3px white inset;
+	border-radius: 10px 10px 10px 10px;
+	height:100%;
+	background-color:#010c40;
+	color:#fff;
+	opacity:0.8;
+}
+
+.basgauche .menus
+{
+	margin-top:0px;
+	margin-left:20px;
+	margin-right:20px;
+	margin-bottom:20px;
+	background-position: center;
+	flex:2;
+}
+
+.basdroite:nth-child(2)
+{
+	display: none;
+	
+}
+
+.afficheski:nth-child(1)
+{
+	flex:1.5;
+	margin-top:30px;
+	background:url("./../img/afficheski.png") no-repeat center;
+	padding-top:130px;
+	background-color:#2989CC;
+}
+
+.liste:nth-child(3){
+	margin:1em 1em 0 1em;
+}
+.repas_base:nth-child(1) {
+	margin:0 1em;
+}
+#conteneurpresentation
+{
+	padding-top:50px;
+	display:flex;
+	flex-direction: column;
+}
+.grail {
+	display: flex;
+	justify-content: space-around;
+}
+.lis_PttDej h2 {
+	margin:0.5em 0;
+} 
+@media screen and (min-width:550px){
+	#conteneurpresentation
+	{
+		flex-direction: row;
+	}
+	.liste:nth-child(3){
+		margin:0 1em ;
+	}
+}
+@media screen and (min-width:960px){
+
+#conteneurpresentation {
+    flex-direction: row;
+}
+
+.repas_base:nth-child(1)
+{
+	flex:1.5;
+	margin-left:50px;
+	margin-right: 0px;
+}
+.repas_base .texte
+{
+margin-top:20px;
+margin-left:20px;
+margin-right:20px;
+margin-bottom:6px;
+flex:2;
+}
+
+.evenements:nth-child(2)
+{
+	flex:2;
+	display:flex;
+	flex-direction:column;
+	margin-left:20px;
+	margin-right:10px;
+	border: 3px white inset;
+	border-radius: 10px 10px 10px 10px;
+	background-color:#010c40;
+	background-image:url("./../img/petitdejeuner2.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+/*.repas_img:nth-child(1)
+{
+	margin-top:0;
+	border: 3px white inset;
+	border-radius: 10px 10px 10px 10px;
+	opacity:1;
+	background-color:#010c40;
+	height:100%;
+	background-image:url("./../img/petitdejeuner2.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding-top:350px;
+	flex:1 ;
+	margin-left:0;
+	margin-right:0;
+}*/
+
+.liste:nth-child(3)
+{
+	margin-left:10px;
+	margin-right:30px;
+	margin-top:0px;
+}
+.grail:nth-child(1)
+{
+	margin-top:13px;
+	margin-left:30px;
+	margin-right:20px;
+	margin-bottom:20px;
+	flex:2;
+	display: flex;
+	line-height: 50%;
+	flex-direction: column;
+}
+
+
+.texte
+{
+margin-top:10px;
+margin-bottom:10px;
+}
+#spacedroit
+{
+	margin-right:10px;
+}
+#spacegauche
+{
+	margin-left:10px;
+}
+
+#conteneurprincipal
+{
+	display:flex;
+	flex-direction:column;
+}
+#conteneurbas
+{
+	padding-top:50px;
+	flex-direction: row;
+}
+
+.lis_PttDej {
+
+}
+
+.basgauche:nth-child(1)
+{
+	flex:1;
+	display:flex;
+	background-color:#010c40;
+	color:white;
+	margin-left:50px;
+	margin-right: :50px;
+	border: 3px white inset;
+	border-radius: 10px 10px 10px 10px;
+	opacity:0.8;
+	height:100%; /*Tres important pour que les marges du bloc deviennent independants des marges des autres blocs*/
+}
+.basgauche .menus
+{
+	margin-top:30px;
+	margin-left:20px;
+	margin-right:20px;
+	margin-bottom:30px;
+
+	flex:2;
+}
+.basdroite:nth-child(2)
+{
+	display: flex;
+	flex-direction:column;
+	border: 3px white inset;
+	border-radius: 10px 10px 10px 10px;
+	background-color: #010c40;
+	background-image:url("./../img/dej2.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	flex:1;
+	margin-left:20px;
+	margin-right:30px;
+	margin-top: 0;
+	opacity:1;
+}
+
+/*.dejeuner:nth-child(1)
+{
+	height:100%;
+	background-image:url("./../img/dej2.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding-top:350px;
+	flex:1 ;
+	opacity:1;
+	background-color: #010c40;
+	margin-left:0;
+	margin-right:0;
+}*/
+
+
+
+.afficheski:nth-child(1)
+{
+	flex:1;
+	margin-top:50px;
+	/*background-color:white;
+	background-image:url("afficheski.png");
+	background-repeat:no-repeat;
+	couleur a utiliser : 2989CC*/
+	background:url("./../img/afficheski.png") no-repeat center;
+	padding-top:130px;
+	background-color:#2989CC;
+
+
+}
+
+}

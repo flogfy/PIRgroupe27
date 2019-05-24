@@ -1,0 +1,196 @@
+/* STATION */
+
+
+/* RESPONSIVE */
+@media screen and (min-width: 200px){
+
+	.emplacement{
+		border: 3px white inset;
+		border-radius: 10px 10px 10px 10px;
+		height:100%;
+		background-color:rgba(1,12,64,0.8);
+		margin:1em 0; 
+	}
+	.infos_plan{
+		border: 3px white inset;
+		border-radius: 10px 10px 10px 10px;
+		height:100%;
+		width: 100%;
+		background-color:rgba(1,12,64,0.8);
+		margin:1em 0;
+		padding: 0 1em 1em 1em; 
+	}
+	.infos_plan h2{
+		margin-bottom: 1em;
+	}
+	.texte_intro{
+		width: 100%;
+		padding: 1em;
+	}
+
+	#photo_intro{
+		max-width: 100%;
+		margin: auto;
+		padding: 1em 2em;
+	}
+	.ski {
+	    display: flex;
+	    align-items: center;
+	    justify-content: space-around;
+	    flex-direction: column;
+	    border: 3px white inset;
+		border-radius: 10px 10px 10px 10px;
+		height:100%;
+		background-color:rgba(1,12,64,0.8);
+		padding: 0 1em 1em 1em;
+		margin:1em 0;
+		width: 100%; 
+	}
+	.ski p{
+		font-weight: 300;
+		line-height: 1.4em;
+		width: 100%;
+		margin-right: 2%;
+	}
+	#video_ski {
+		width:100%;
+	}
+	h1, h2, p, a{
+		color:white;
+		
+	}
+
+	.centre {
+		display: flex;
+		flex-flow: column;
+		align-items: center;
+		width: 90%;
+		margin: auto;
+	}
+
+	h1 {
+		font-size: 2.5em;
+		margin: 0;
+		padding: 0.8em 0 0.2em 0;
+		text-align: center;
+	}
+
+	h2{
+		font-size: 2em;
+		border-bottom: solid 1px white;
+		text-align: left;
+		padding: 0.4em;
+		margin: 0;
+		width: 100%;
+	}
+	.plandespistes {
+		display: flex;
+		justify-content: center;
+		margin: 2em 2em;
+		border: 2px white inset;
+		border-radius: 1em;
+		cursor: pointer;
+		padding: 0.5em;
+		width: 80%;
+		margin-bottom: 1em;
+	}
+	.plandespistes:hover {
+		background: white;
+		color: #010c40;
+	}
+	.infos_plan p, .infos_plan a{
+		font-size: 1.3em;
+		font-weight: 250;
+		line-height: 1.4em;
+		margin: 0 auto 1em auto;
+		text-align: center;
+	}
+}
+
+@media screen and (min-width: 550px){
+	.emplacement{
+		display: flex;
+		flex-flow: row wrap;
+	}
+	#photo_intro{
+		max-width: 35%;
+		margin: auto;
+		padding: 1em;
+		max-height: 410px;
+	}
+	.texte_intro{
+		width: 50%;
+		padding: 1em;
+	}
+	.ski .texte_intro{
+		width: 100%;
+		padding: 0 1em 1em 1em;
+	}
+	#video_ski {
+	    width: 60%;
+	}
+	.plandespistes {
+		width: 50%;
+	}
+}
+@media screen and (min-width: 960px){
+	/*#photo_intro{
+		max-width: 35%;
+		margin: auto;
+		padding: 1em;
+	}
+	.emplacement{
+		display: flex;
+		flex-flow: row wrap;
+	}*/
+	.plandespistes {
+		width: 30%;
+	}
+	.ski .texte_intro {
+	    width: 60%;
+	}
+	
+	.emplacement p{
+		font-size: 1.4em;
+		font-weight: 300;
+		line-height: 1.6em;
+	}
+
+	.ski {
+	    padding-top: 2em;
+	    flex-direction: row;
+	}
+
+	.ski p{
+		font-size: 1.3em;
+		font-weight: 300;
+		line-height: 1.4em;
+		width: 100%;
+		margin-right: 2%;
+	}
+
+	#video_ski{
+		margin: auto;
+		width: 40%;
+		display: block;
+		height: 100%;
+		min-height: 290px;
+	}
+
+	.infos_plan{
+		padding: 1em;
+		align-self: baseline;
+	}
+
+
+	.infos_plan a:hover{
+		font-weight: bolder;
+	}
+	.texte_intro h2 {
+		padding-top: 0;
+	}
+
+
+}
+
+
